@@ -22,7 +22,6 @@ public class inch_to_cm {
 		System.out.println("Total centemeters: "+cm);
 		
 		input.close();
-		
 	}
 
 }
