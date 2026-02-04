@@ -1,6 +1,6 @@
-##Actividad 1: Comprensión conceptual
+## Actividad 1: Comprensión conceptual
 
-#Objetivo: Verificar que el estudiante domina los conceptos fundamentales.
+# Objetivo: Verificar que el estudiante domina los conceptos fundamentales.
 
 1.- ¿Cuál es la diferencia entre entrada y salida en un programa?
 
