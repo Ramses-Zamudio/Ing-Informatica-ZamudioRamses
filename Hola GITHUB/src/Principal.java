@@ -4,7 +4,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hola GITHUB");
-		System.out.println("Hola JAVA, Eclipse y Github");
+		System.out.println("Hola JAVA, Eclipse y GITHUB");
 	}
 
 }
