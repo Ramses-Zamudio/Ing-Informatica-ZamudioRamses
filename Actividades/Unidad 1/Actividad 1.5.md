@@ -50,6 +50,3 @@ El proceso se repite hasta que el usuario acierte.
 5. Repetir hasta que el usuario adivine el número.
 
 ---
-
-## Algoritmo (pseudocódigo)
-
