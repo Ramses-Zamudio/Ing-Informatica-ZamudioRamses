@@ -20,6 +20,7 @@ public class inch_to_cm {
 		cm = INCH_TO_CM * total_inches;
 		
 		System.out.println("Total centemeters: "+cm);
+		
 		input.close();
 	}
 
