@@ -21,7 +21,6 @@ public class inchtocm {
 		
 		System.out.println("Total centemeters: "+cm);
 		input.close();
-		
 	}
 
 }
