@@ -17,6 +17,7 @@ public class sum_of_numbers {
 		
 		if( sum == (num1 + num2))
 			System.out.print("\nCORRECTO!");
+		
 		else
 			System.out.print("\nERROR!");
 	}
