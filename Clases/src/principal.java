@@ -2,7 +2,27 @@
 public class principal {
 
 	public static void main(String[] args) throws InterruptedException {
-		Clock clk1 = new Clock();
+		
+		Circulo clk1 = new Circulo();
+		//clk1.printDateCreated();
+		Circulo.printNCircles();
+		
+		Thread.sleep(2000);
+		
+		Circulo clk2 = new Circulo();
+		//clk2.printDateCreated();
+		Circulo.printNCircles();
+		
+		System.out.println(clk1.PI);
+		
+		System.out.println(clk1.getRadio());
+		clk1.setRadio(4.1);
+		System.out.println(clk1.getRadio());
+		
+		Clock cl = new Clock();
+		
+		
+		/*Clock clk1 = new Clock();
 		Clock clk2 = new Clock(12,30,10);
 		
 		System.out.print("Reloj 1: ");
@@ -37,7 +57,7 @@ public class principal {
 		clk1.copyTime(clk3);
 		
 		System.out.print("Se copio el tiempo del Reloj 3 al Reloj 1: ");
-		clk1.printTime();
+		clk1.printTime();*/
 	}
 
 }

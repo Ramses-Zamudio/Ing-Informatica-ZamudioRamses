@@ -2,12 +2,14 @@ import java.util.Date;
 
 public class Clock {
 	int hour, minute, second;
+	Circulo clk = new Circulo();
 	
 	public Clock() {
 		Date fecha = new Date();
 		hour = fecha.getHours();
 		minute =fecha.getMinutes();
 		second = fecha.getSeconds();
+		clk.printDateCreated();
 	}
 	
 	public Clock(int h, int m, int s) {
@@ -61,4 +63,5 @@ public class Clock {
 		return copy;
 		
 	}
+	
 }
