@@ -12,6 +12,7 @@ public class MiVentana {
 	public MiVentana() {
 		
 		JFrame mi_ventana=new JFrame();
+		
 
 		//FlowLayout layout_simple=new FlowLayout(FlowLayout.CENTER );
 		GridLayout layoutGrid = new GridLayout(3,2,5,5);
