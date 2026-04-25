@@ -10,6 +10,8 @@ import java.awt.Color;
 import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JTextField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Principal extends JFrame {
 
@@ -78,12 +80,22 @@ public class Principal extends JFrame {
 		contentPane.add(ButtonPanel, BorderLayout.SOUTH);
 		
 		JButton OK = new JButton("OK");
+		OK.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("Se presiono el boton Ok");
+			}
+		});
 		OK.setFont(new Font("Tahoma", Font.BOLD, 10));
 		OK.setForeground(new Color(255, 255, 255));
 		OK.setBackground(new Color(0, 128, 64));
 		ButtonPanel.add(OK);
 		
 		JButton CancelButton = new JButton("Cancel");
+		CancelButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("Se presiono el boton Cancel");
+			}
+		});
 		CancelButton.setFont(new Font("Tahoma", Font.BOLD, 10));
 		CancelButton.setBackground(new Color(255, 0, 0));
 		CancelButton.setForeground(new Color(255, 255, 255));
